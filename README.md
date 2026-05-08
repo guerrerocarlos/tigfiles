@@ -2,6 +2,11 @@
 
 Portable `tig` configuration plus a setup script that installs the current theme and configures `diff-highlight` correctly on macOS and Linux.
 
+## Files
+
+- `tigrc.template`: portable source config used by `setup.sh`
+- `tigrc.current`: current rendered config from a live machine, committed so it can be kept in sync across machines
+
 ## Install
 
 ```bash

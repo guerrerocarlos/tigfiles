@@ -1,0 +1,101 @@
+set git-colors = no
+set diff-highlight = /usr/share/doc/git/contrib/diff-highlight/diff-highlight
+
+# Override the default terminal colors to white on black.
+# color default         white   black
+# color   cursor          black   green
+# color   search-result   black   yellow
+# # color author          green   black
+# # color status          green   black
+# color   line-number     red     black
+# color   title-focus     black   yellow
+# color   title-blur      black   magenta
+# # Diff colors
+# color diff-header       yellow  default
+# color diff-index        blue    default
+# color diff-chunk        magenta default
+# color "Reported-by:"    green   default
+# # View-specific color
+# color tree.date         black   cyan    bold
+
+# Cyberdream theme for tig (256-color)
+# Based on https://github.com/scottmckendry/cyberdream.nvim
+#
+# 256-color mapping:
+#   fg:        white       grey:         color103
+#   blue:      color75     green:        color84
+#   cyan:      color87     red:          color203
+#   yellow:    color227    magenta:      color207
+#   pink:      color205    orange:       color215
+#   purple:    color135
+
+# General UI
+color default         white         default
+color cursor          color234      color75    bold
+color search-result   color234      color227   bold
+color delimiter       color103      default
+color line-number     color238      default
+color id              color135      default
+color date            color87       default
+color author          color84       default
+color overflow        color203      default
+color header          color75       default    bold
+
+# Title (focused and blurred windows)
+color title-focus     color234      color75    bold
+color title-blur      color103      color238
+
+# Status window
+color status          white         default
+color stat-staged     color84       default
+color stat-unstaged   color215      default
+color stat-untracked  color103      default
+color stat-none       white         default
+
+# Main view (log/commit list)
+color main-commit     white         default
+color main-head       color207      default    bold
+color main-remote     color215      default
+color main-tag        color227      default    bold
+color main-local-tag  color227      default
+color main-ref        color87       default
+color main-tracked    color135      default    bold
+color graph-commit    color205      default
+
+# Diff view
+color diff-header     color75       default    bold
+color diff-index      color135      default
+color diff-oldmode    color103      default
+color diff-newmode    color103      default
+color "copy from "    color103      default
+color "copy to "      color103      default
+color diff-similarity color103      default
+color "rename from "  color203      default
+color "rename to "    color84       default
+color diff-chunk      color205      default    bold
+color diff-add        color84       default
+color diff-add2       color84       default
+color diff-del        color203      default
+color diff-del2       color203      default
+color "---"           color75       default
+color "+++"           color75       default
+color "@@"            color205      default    bold
+color "diff --git"    color135      default    bold
+
+# Commit header
+color "Author: "      color84       default
+color "AuthorDate: "  color87       default
+color "Commit: "      color215      default
+color "CommitDate: "  color87       default
+color "Merge: "       color207      default
+color "Refs: "        color227      default    bold
+color "Signed-off-by" color103      default
+
+# Tree view
+color tree.header     color75       default    bold
+color tree.directory  color75       default
+color tree.file       white         default
+
+# Help and palette
+color help-group      color75       default    bold
+color help-action     color87       default
