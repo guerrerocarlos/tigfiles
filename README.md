@@ -15,11 +15,18 @@ cd tigfiles
 ./setup.sh
 ```
 
+For exact machine-to-machine sync using the committed live config:
+
+```bash
+./setup.sh --current
+```
+
 The script:
 
 - finds a working `diff-highlight` binary or script
 - backs up an existing `~/.tigrc`
 - installs this repo's `tig` configuration with the detected `diff-highlight` path
+- can install `tigrc.current` exactly when run with `--current`
 
 ## Notes
 
